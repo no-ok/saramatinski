@@ -1,0 +1,420 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Just another portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+  <body id="content-scroll" class="content mCustomScrollbar">
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <header>
+      <div class="container">
+        <div class="social-block">
+          <a href="https://github.com/no-ok"><span class="fa fa-github"></span></a>
+          <a href="https://www.facebook.com/vasilko.sarmatinski"><span class="fa fa-facebook"></span></a>
+          <a href="http://www.last.fm/ru/user/Duck_Duck_Goose"><span class="fa fa-lastfm"></span></a>
+          <a href="https://vk.com/sarmatinski"><span class="fa fa-vk"></span></a>
+          <a href="#"><span class="fa fa-linkedin"></span></a>
+        </div>
+
+        <nav class="cd-stretchy-nav">
+          <a class="cd-nav-trigger" href="#0">
+            Menu
+            <span aria-hidden="true"></span>
+          </a>
+
+          <ul>
+            <li><a href="#firstPage"><span>Home</span></a></li>
+            <li><a href="#secondPage"><span>Works</span></a></li>
+            <li><a href="#thirdPage"><span>Skills</span></a></li>
+            <li><a href="#fourthPage"><span>About</span></a></li>
+            <li><a href="#fifthPage"><span>Contacts</span></a></li>
+            <li><a href="#sixthPage"><span>I like</span></a></li>
+          </ul>
+
+          <span aria-hidden="true" class="stretchy-nav-bg"></span>
+        </nav>
+      </div>
+    </header>
+
+    <div class="main">
+
+      <div class="full-page">
+
+        <section class="section welcome-section" data-anchor="firstPage">
+          <div class="container">
+
+            <h2 class="section-title">Welcome to my portfolio</h2>
+
+            <div class="home-cont">
+              <p>
+                <span class="primary-red">private static</span> <span class="primary-blue">int</span> updateDesktop (<span class="primary-blue">Image</span> wallpaper) {<br>
+                &emsp;<span class="primary-blue">int</span> happines;<br>
+                &emsp;<span class="primary-blue">MyDesktop</span> desktop <span class="primary-red">= new</span> <span class="primary-blue"> Desktop</span>();<br>
+                &emsp;desktop.apply(wallpaper);<br>
+                &emsp;happiness = <span class="purple"><strong>INFINITY</strong></span>;<br>
+                &emsp;<span class="primary-red">return</span> hapiness;<br>
+                }
+              </p>
+            </div>
+          </div>
+        </section>
+        <!--  end .section .welcome-section #home-section -->
+
+        <!-- .section .my-works #works -->
+        <section class="section my-works" data-anchor="secondPage">
+          <div class="container">
+
+            <h2 class="section-title">Latest works</h2>
+
+            <ul class="filter-list">
+              <li class="filter active" data-filter="all">All works</li>
+              <li class="filter" data-filter=".category-1">Pure HTML/CSS</li>
+              <li class="filter" data-filter=".category-2">Bootstrap</li>
+              <li class="filter" data-filter=".category-3">Foundation</li>
+              <li class="filter" data-filter=".category-4">Susy</li>
+            </ul><!-- end .filter-list -->
+
+            <ul class="works-list" id="portfolio-grid">
+              <li class="mix category-1 work-item" >
+                <div class="inner-wrap">
+                  <img src="img/work-example.png" alt="work image">
+
+                  <div class="hover-content">
+                    <h3 class="item-title">Work title</h3>
+                    <a href="#work_1" class="popup_content work-item-link">preview</a>
+                    <a href="#" class="work-link-away">link to</a>
+                  </div>
+                </div>
+
+                <div class="hidden">
+                  <div class="modal-wrap" id="work_1">
+                    <div class="modal-content" >
+                      <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                      <h3 class="popup-title">Work title</h3>
+
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+
+                      <img src="img/work-example.png" alt="modal image">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="mix category-1 work-item" >
+                <div class="inner-wrap">
+                  <img src="img/thumb.jpg" alt="work image">
+
+                  <div class="hover-content">
+                    <h3 class="item-title">Wokr title</h3>
+                    <p class="item-description">work deskription</p>
+                    <a href="#work_2" class="popup_content work-item-link">preview</a>
+                    <a href="#" class="work-item-link">link to</a>
+                  </div>
+                </div>
+
+                <div class="hidden">
+                  <div class="modal-wrap" id="work_2">
+                    <div class="modal-content" >
+                      <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                      <h3 class="popup-title">Work title</h3>
+
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+
+                      <img src="img/thumb.jpg" alt="">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="mix category-2 work-item" >
+                <div class="inner-wrap">
+                  <img src="img/thumb.jpg" alt="work image">
+
+                  <div class="hover-content">
+                    <h3 class="item-title">Wokr title</h3>
+                    <p class="item-description">work deskription</p>
+                    <a href="#work_3" class="popup_content work-item-link">preview</a>
+                    <a href="#" class="work-item-link">link to</a>
+                  </div>
+                </div>
+
+                <div class="hidden">
+                  <div class="modal-wrap" id="work_3">
+                    <div class="modal-content" >
+                      <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                      <h3 class="popup-title">Work title</h3>
+
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+
+                      <img src="img/thumb.jpg" alt="modal image">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="mix category-2 work-item" >
+                <div class="inner-wrap">
+                  <img src="img/thumb.jpg" alt="work image">
+
+                  <div class="hover-content">
+                    <h3 class="item-title">Wokr title</h3>
+                    <p class="item-description">work deskription</p>
+                    <a href="#work_4" class="popup_content work-item-link">preview</a>
+                    <a href="#" class="work-item-link">link to</a>
+                  </div>
+                </div>
+
+                <div class="hidden">
+                  <div class="modal-wrap" id="work_4">
+                    <div class="modal-content" >
+                      <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                      <h3 class="popup-title">Work title</h3>
+
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+
+                      <img src="img/thumb.jpg" alt="">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="mix category-3 work-item" >
+                <div class="inner-wrap">
+                  <img src="img/thumb.jpg" alt="work image">
+
+                  <div class="hover-content">
+                    <h3 class="item-title">Wokr title</h3>
+                    <p class="item-description">work deskription</p>
+                    <a href="#work_5" class="popup_content work-item-link">preview</a>
+                    <a href="#" class="work-item-link">link to</a>
+                  </div>
+                </div>
+
+                <div class="hidden">
+                  <div class="modal-wrap" id="work_5">
+                    <div class="modal-content" >
+                      <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                      <h3 class="popup-title">Work title</h3>
+
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+
+                      <img src="img/thumb.jpg" alt="">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="mix category-3 work-item" >
+                <div class="inner-wrap">
+                  <img src="img/thumb.jpg" alt="work image">
+
+                  <div class="hover-content">
+                    <h3 class="item-title">Wokr title</h3>
+                    <p class="item-description">work deskription</p>
+                    <a href="#work_6" class="popup_content work-item-link">preview</a>
+                    <a href="#" class="work-item-link">link to</a>
+                  </div>
+                </div>
+
+                <div class="hidden">
+                  <div class="modal-wrap" id="work_6">
+                    <div class="modal-content" >
+                      <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                      <h3 class="popup-title">Work title</h3>
+
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+
+                      <img src="img/thumb.jpg" alt="">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="mix category-3 work-item" >
+                <div class="inner-wrap">
+                  <img src="img/thumb.jpg" alt="work image">
+
+                  <div class="hover-content">
+                    <h3 class="item-title">Wokr title</h3>
+                    <p class="item-description">work deskription</p>
+                    <a href="#work_7" class="popup_content work-item-link">preview</a>
+                    <a href="#" class="work-item-link">link to</a>
+                  </div>
+                </div>
+
+                <div class="hidden">
+                  <div class="modal-wrap" id="work_7">
+                    <div class="modal-content" >
+                      <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                      <h3 class="popup-title">Work title</h3>
+
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+
+                      <img src="img/thumb.jpg" alt="">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="mix category-4 work-item" >
+                <div class="inner-wrap">
+                  <img src="img/thumb.jpg" alt="work image">
+
+                  <div class="hover-content">
+                    <h3 class="item-title">Wokr title</h3>
+                    <p class="item-description">work deskription</p>
+                    <a href="#work_8" class="popup_content work-item-link">preview</a>
+                    <a href="#" class="work-item-link">link to</a>
+                  </div>
+                </div>
+
+                <div class="hidden">
+                  <div class="modal-wrap" id="work_8">
+                    <div class="modal-content" >
+                      <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                      <h3 class="popup-title">Work title</h3>
+
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+
+                      <img src="img/thumb.jpg" alt="">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+        </section>
+        <!-- end .section .my-works #works -->
+
+        <!-- .my-skills #skills -->
+        <section class="section my-skills" data-anchor="thirdPage">
+          <div class="container">
+            <h2 class="section-title">Skills</h2>
+
+            <ul class="skills-list">
+              <li><img src="img/HTML5.png" alt="skill item"></li>
+              <li><img src="img/CSS3.png" alt="skill item"></li>
+              <li><img src="img/LESS.png" alt="skill item"></li>
+              <li><img src="img/sass.png" alt="skill item"></li>
+              <li><img src="img/BOOTSRAP.png" alt="skill item"></li>
+            </ul>
+          </div>
+        </section>
+        <!-- end .section .my-skills #skills -->
+
+        <!-- .section .about-me #about -->
+        <section class="section about-me" data-anchor="fourthPage">
+          <div class="container">
+            <h2 class="section-title">About me</h2>
+
+            <ul class="bio-list">
+              <li>
+                <strong>Name:</strong>
+                <span>Vasyl Saramatinskiy</span>
+              </li>
+
+              <li>
+                <strong>Location:</strong>
+                <span>Lviv, Ukraine</span>
+              </li>
+
+              <li>
+                <strong>Employment status:</strong>
+                <span>Currently free and open for full day job or freelance.</span>
+              </li>
+
+              <li>
+                <strong>Experience:</strong>
+                <span>7 months</span>
+              </li>
+
+              <li>
+                <strong>Brief:</strong>
+                <span>Actively engaged in the study of JavaScript</span>
+              </li>
+            </ul><!-- end .bio-list -->
+
+          </div>
+        </section>
+        <!-- end .section .about-me #about -->
+
+        <!-- .section .contact-me #contacts -->
+        <section class="section contact-me" data-anchor="fifthPage">
+          <div class="container clearfix">
+            <h2 class="section-title">Get in touch</h2>
+
+            <form class="main-form" action="//formspree.io/saramatinski@gmail.com" method="POST">
+              <input type="text" class="form-item" placeholder="Name" required>
+              <input type="email" class="form-item" placeholder="Email" required>
+              <textarea name="message" rows="8" placeholder="Your message"></textarea>
+              <button class="form-btn">Send</button>
+            </form>
+
+            <ul class="other-contacts">
+              <li><a href="mailto:saramatinski@gmail"><span class="fa fa-envelope-o"></span>saramatinski@gmail.com</a></li>
+              <li><span class="fa fa-skype"></span>purple.fruit</li>
+              <li><span class="fa fa-phone"></span>+38-093-70-20-255</li>
+            </ul>
+
+          </div>
+        </section>
+        <!-- end .section .contact-me #contacts -->
+
+        <!-- .section .things-enjoy #enjoy -->
+        <section class="section things-enjoy" data-anchor="sixthPage">
+          <div class="container">
+            <h2 class="section-title">Things I enjoy</h2>
+
+              <ul class="like-list">
+                <li>
+                  <span class="fa fa-bicycle"></span>
+                </li>
+
+                <li>
+                   <span class="fa fa-gamepad"></span>
+                </li>
+
+                <li>
+                   <span class="fa fa-usd"></span>
+                </li>
+
+                <li>
+                  <span class="fa fa-film"></span>
+                </li>
+              </ul>
+          </div>
+        </section>
+        <!-- end .section .things-enjoy #enjoy -->
+
+      </div><!-- end .full-page -->
+
+    </div><!--  end .main -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/jquery.fullPage.min.js"></script>
+    <script src="js/vendor/jquery.mixitup.min.js"></script>
+    <script src="js/vendor/jquery.magnific-popup.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
